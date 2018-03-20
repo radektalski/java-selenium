@@ -4,10 +4,12 @@ import org.testng.annotations.Test;
 
 public class LaunchingChrome {
 
+
     @Test
     public void testGoogleSearch() {
 
-        LaunchingChrome.chromeDriverInitializatrion().get("http://www.google.com/xhtml");
+        WebDriver driver = LaunchingChrome.chromeDriverInitializatrion();
+        driver.get();
 
 
     }
