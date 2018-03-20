@@ -9,7 +9,6 @@ public class LaunchingChrome {
     public void testGoogleSearch() {
 
         WebDriver driver = LaunchingChrome.chromeDriverInitializatrion();
-        driver.get();
 
 
     }
